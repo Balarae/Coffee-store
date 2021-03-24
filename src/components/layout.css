@@ -3,6 +3,7 @@
   --mainYellow: rgb(255, 158, 9);
   --mainWhite: white;
   --mainDark: black;
+  --mainGrey: rgb(232, 223, 223);
 }
 body {
   background: var(--mainWhite);
@@ -50,4 +51,8 @@ h6 {
 }
 .footer {
   background: var(--mainBrown);
+}
+.menu,
+.contact {
+  background: var(--mainGrey);
 }
